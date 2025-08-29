@@ -2287,3 +2287,82 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for lengt
 [20:39:31] [Netty Epoll Server IO #4/INFO]: Priority overwritten for player piiastrii_. Claiming: GRAVE / Robbing: INVENTORY
 [20:39:31] [Worker-Main-28/WARN]: Tried to access a block entity before it was created. class_2338{x=207, y=-9, z=-41}
 [20:39:33] [Netty Epoll Server IO #4/INFO]: [do_a_barrel_roll] Client of piiastrii_ accepted server config.
+[20:39:52] [Server thread/INFO]: piiastrii_ lost connection: Disconnected
+[20:39:52] [Server thread/INFO]: piiastrii_ left the game
+[20:39:52] [Server thread/INFO]: remove player wand
+[20:39:52] [Server thread/INFO]: Updating all forceload tickets for f67242e4-9743-37f5-b756-724c0869d415
+[20:42:00] [Server thread/INFO]: [Handshake] Sending channel query
+[20:42:00] [Netty Epoll Server IO #6/INFO]: [Handshake] Receiving client channels
+[20:42:00] [Netty Epoll Server IO #6/INFO]: [Handshake] Handshake completed successfully
+[20:42:00] [Server thread/INFO]: piiastrii_[/127.195.79.96:58951] logged in with entity id 1476 at (8.5, 73.0, 7.5)
+[20:42:00] [Server thread/INFO]: Sending server config values to client
+[20:42:00] [Server thread/INFO]: Syncing config to piiastrii_ (f67242e4-9743-37f5-b756-724c0869d415)
+[20:42:00] [Server thread/INFO]: Loading config from file...
+[20:42:00] [Server thread/INFO]: [STDOUT]: Splitting recipes into 10 packets
+[20:42:00] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[20:42:00] [Server thread/INFO]: piiastrii_ joined the game
+[20:42:00] [Server thread/INFO]: Loading Configs for Sortilege
+[20:42:00] [Server thread/INFO]: Couldn't find config value for path : "[enchantments, enchant_catalyst, show_in_tooltip]", defaulting to true
+[20:42:00] [Server thread/INFO]: Couldn't find config value for path : "[enchantments, enabled_enchants]", defaulting to {}
+[20:42:00] [Server thread/INFO]: Couldn't find config value for path : "[death, xp_keeping, stolen_xp_data]", defaulting to 41
+[20:42:00] [Server thread/INFO]: Couldn't find config value for path : "[death, glowing_killer]", defaulting to true
+[20:42:00] [Server thread/INFO]: Updating all forceload tickets for f67242e4-9743-37f5-b756-724c0869d415
+[20:42:00] [Server thread/INFO]: PLAYER_JOIN
+[20:42:00] [Server thread/INFO]: add_player wand
+[20:42:00] [Server thread/INFO]: config sent
+[20:42:01] [Netty Epoll Server IO #6/INFO]: Receiving client config
+[20:42:04] [Netty Epoll Server IO #6/INFO]: Channel update: piiastrii_ -> default
+[20:42:04] [Netty Epoll Server IO #6/INFO]: Priority overwritten for player piiastrii_. Claiming: GRAVE / Robbing: INVENTORY
+[20:42:06] [Netty Epoll Server IO #6/INFO]: [do_a_barrel_roll] Client of piiastrii_ accepted server config.
+[20:46:53] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=-275, y=24, z=-166}
+[20:46:53] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=-276, y=24, z=-166}
+[20:48:29] [Server thread/INFO]: piiastrii_ has made the advancement [Forbidden Fruit]
+[20:49:17] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=-364, y=34, z=4}
+[20:49:17] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=-364, y=34, z=2}
+[20:49:17] [Worker-Main-20/WARN]: Tried to access a block entity before it was created. class_2339{x=-369, y=-35, z=12}
+[20:49:17] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=-364, y=13, z=-58}
+[20:49:51] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at net.minecraft.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:95) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.network.NetworkState$PacketHandler.createPacket(NetworkState.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.network.NetworkState.getPacketHandler(NetworkState.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.network.DecoderHandler.redirect$cok000$connectivity$checkDecodingError(DecoderHandler.java:570) ~[server-intermediary.jar:?]
+	at net.minecraft.network.DecoderHandler.decode(DecoderHandler.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 29 more
